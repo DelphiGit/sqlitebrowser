@@ -9,7 +9,6 @@
 #include <QFile>
 #include <QTextStream>
 #include <QMessageBox>
-#include <QSettings>
 
 ExportCsvDialog::ExportCsvDialog(DBBrowserDB* db, QWidget* parent, const QString& query, const QString& selection)
     : QDialog(parent),
@@ -54,7 +53,8 @@ ExportCsvDialog::ExportCsvDialog(DBBrowserDB* db, QWidget* parent, const QString
         else
         {
             QList<QListWidgetItem*> items = ui->listTables->findItems(selection, Qt::MatchExactly);
-            ui->listTables->setCurrentItem(items.at(0));
+            if (!items.isEmpty())
+                ui->listTables->setCurrentItem(items.first());
         }
     } else {
         // Hide table combo box

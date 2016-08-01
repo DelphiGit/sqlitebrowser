@@ -1,6 +1,7 @@
 # DB Browser for SQLite
 
 [![Build Status](https://travis-ci.org/sqlitebrowser/sqlitebrowser.svg?branch=master)](https://travis-ci.org/sqlitebrowser/sqlitebrowser)
+[![Join the chat at https://gitter.im/sqlitebrowser/sqlitebrowser](https://badges.gitter.im/sqlitebrowser/sqlitebrowser.svg)](https://gitter.im/sqlitebrowser/sqlitebrowser?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![DB Browser for SQLite Screenshot](https://github.com/sqlitebrowser/sqlitebrowser/raw/master/images/sqlitebrowser.png "DB Browser for SQLite Screenshot")
 
@@ -78,8 +79,7 @@ Arch Linux provides a package through pacman.
 
 ### Fedora
 
-For Fedora version 21, 22, 23 and rawhide (i386 and x86_64) you can install
-by issuing:
+For Fedora (i386 and x86_64) you can install by issuing:
 
     $ sudo dnf install sqlitebrowser
 

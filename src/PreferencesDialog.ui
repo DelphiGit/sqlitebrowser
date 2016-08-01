@@ -990,6 +990,7 @@
   <tabstop>foreignKeysCheckBox</tabstop>
   <tabstop>checkHideSchemaLinebreaks</tabstop>
   <tabstop>spinPrefetchSize</tabstop>
+  <tabstop>defaultFieldTypeComboBox</tabstop>
   <tabstop>buttonDatabaseAdvanced</tabstop>
   <tabstop>editDatabaseDefaultSqlText</tabstop>
   <tabstop>comboDataBrowserFont</tabstop>
